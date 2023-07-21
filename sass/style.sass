@@ -88,6 +88,7 @@ main
                 left: 50%
                 transform: translateX(-50%)
                 bottom: -30px
+                z-index: 11
                 li
                     display: block
                     width: 14px
@@ -103,6 +104,8 @@ main
                 li.slick-active
                     background-color: #F97B00
                     transition: .3s all
+            img 
+                width: 100%
     .information
         background-color: #272727
         padding: 135px 0 100px 0
@@ -270,3 +273,43 @@ main
                                 letter-spacing: 0.9px
                                 color: #FFF
                                 margin-top: 5px
+.footer
+    background: #4A4A4A
+    padding: 40px 0
+    &-wrapper
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &-block
+        display: flex
+        align-items: center
+        margin: 0 -64.5px
+    &-copyright
+        padding: 0 64.5px
+        font-size: 14px
+        font-style: normal
+        font-weight: 500
+        line-height: normal
+        letter-spacing: 0.28px
+        color: #FFF
+    &-social
+        &-block
+            display: flex
+            align-items: center
+            padding: 0 64.5px
+            margin: 0 -5.5px
+        &-link
+            margin: 0 5.5px
+    &-dapsite
+        display: flex
+        align-items: center
+        text-decoration: none
+        &-text
+            color: #BDBDBD
+            font-size: 12px
+            font-style: normal
+            font-weight: 400
+            line-height: 20px
+            letter-spacing: 0.24px
+        &-logo
+            margin-left: 11px

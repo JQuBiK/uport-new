@@ -1,0 +1,59 @@
+main {
+    background-color: #fff;
+}
+
+main .information {
+    background-color: #fff;
+}
+
+.info-map-title {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    z-index: 15;
+    margin-bottom: 45px;
+}
+
+main .info-map .map-info #map {
+    height: 340px;
+}
+
+main .info-map::before {
+    width: 50%;
+}
+
+main .information-block-title {
+    color: #272727
+}
+
+main .information-title {
+    color: #272727
+}
+
+main .information-block-text {
+    color: #272727
+}
+
+main .information-gallery-item {
+    border-color: #272727;
+}
+
+main .information-gallery-item::after, main .information-gallery-item::before {
+    background-color: #272727;
+}
+
+main .information-info-list-item {
+    color:#272727
+}
+
+main .information-title::before {
+    background-color: #272727;
+}
+
+main .info-map::after {
+    transform: rotate(-30deg);
+    bottom: -30%;
+}
